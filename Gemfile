@@ -70,3 +70,9 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+# Latest official gem release (does not work)
+gem "flipflop", "~>2.6.0"
+
+# Forked fix (works)
+# gem "flipflop", git: "https://github.com/mldoscar/flipflop", branch: "rails-7"

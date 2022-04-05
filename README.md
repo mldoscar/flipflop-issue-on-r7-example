@@ -1,24 +1,21 @@
-# README
+# Flipflop issue on Rails 7 Example
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Explains flipflop issue in rails 7.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version 2.7.4
 
 * System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
+  * Flipflop 2.6.0
 
 * How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
+  ```ruby
+    $ bin/rails test
+  ```
 
 * Deployment instructions
-
-* ...
+  ```ruby
+    $ bundle install
+    $ rails s
+  ```
